@@ -78,7 +78,7 @@
         var formData = new FormData();
             formData.append("files[]", "yoyoyoyo");     
         //post to php
-        let url = "https://partyprogramming.herokuapp.com/finalServer.php"";
+        let url = "https://partyprogramming.herokuapp.com/finalServer.php";
         fetch(url, {method: "POST", body: formData})  
         
              
